@@ -1,0 +1,47 @@
+canvas {
+  width: 100%;
+  background: black;
+  height: 100%;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: arial, sans-serif;
+  background: #070000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  color: white;
+  margin-bottom: 0;
+  margin-top: 1%;
+  margin: auto;
+  font-size: 55px;
+}
+
+h2 {
+  color: yellow;
+  font-size: 40px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+span {
+  color: orange;
+}
+
+.image {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+    float: left;
+    margin: auto;
+    /*width: 10%;*/
+}
+
+.image:hover {
+    transform: rotate(720deg);
+    -webkit-transform: rotate(720deg);
+}
